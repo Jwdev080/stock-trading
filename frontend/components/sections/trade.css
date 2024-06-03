@@ -1,0 +1,73 @@
+.most-traded {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .most-traded h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .trades-list {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trade-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-top: 1px solid #f0f0f0;
+  }
+  
+  .trade-item:first-child {
+    border-top: none;
+  }
+  
+  .trade-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flag-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+  }
+  
+  .trade-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .trade-symbol {
+    font-weight: bold;
+  }
+  
+  .trade-value {
+    color: #333;
+  }
+  
+  .trade-change {
+    color: green;
+    font-size: 0.9em;
+  }
+  
+  .trade-button {
+    background-color: #b3864b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .trade-button:hover {
+    background-color: #a07540;
+  }
+  

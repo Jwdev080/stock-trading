@@ -3,8 +3,6 @@ from importlib import import_module
 from django.conf import settings
 from django.db import connections
 from django.test.runner import DiscoverRunner
-
-
 class CoreTestRunner(DiscoverRunner):
     def setup_test_environment(self, **kwargs):
         """We set the TESTING setting to True. By default, it's on False."""
